@@ -1,0 +1,39 @@
+body {
+  width: 1024px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.material-symbols-outlined {
+  font-size: inherit;
+  cursor: pointer;
+}
+
+input {
+  font-size: inherit;
+}
+
+body > p {
+  margin: 0.8em 0;
+}
+
+body input[type=button] {
+  font-size: 150%;
+}
+
+.original, .translation {
+  font-size: 200%;
+}
+.translation input {
+  width: 100%;
+}
+
+#french_translations li {
+  color: darkgrey;
+  font-size: 200%;
+}
+
+#french_translations li.correct {
+  font-style: bold;
+  color: darkgreen;
+}
